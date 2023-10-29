@@ -1,6 +1,4 @@
-Certainly! Let's refine the README to make it more structured and visually appealing with Markdown.
 
----
 
 # Custom Paymaster Tutorial with zkSync 🚀
 
