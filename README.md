@@ -1,37 +1,56 @@
-Custom Paymaster Tutorial 📖
-Welcome aboard to the custom paymaster journey with zkSync! 🚀🌌
+Certainly! Let's refine the README to make it more structured and visually appealing with Markdown.
 
-This repository is crafted to guide you through the process of building a custom paymaster on zkSync Era. Coupled with this, you'll find a practical, easy-to-follow guide to implement and understand every step here.
+---
 
-Need Assistance? 💡
-If you're stumbling upon any issues or uncertainties:
+# Custom Paymaster Tutorial with zkSync 🚀
 
-📖 Explore the custom paymaster tutorial for a comprehensive walkthrough of the code in this repository.
-🗣️ Or simply reach out on Discord. We're always here to help!
-Repository Overview 📂
-Dive into the key sections of this repository:
+Welcome to the comprehensive tutorial on building a custom paymaster with zkSync. This repository provides a step-by-step guide to assist you throughout the process. Whether you're a novice or an expert, our structured content ensures clarity and ease of implementation.
 
-/contracts: All the essential smart contracts you need are neatly stored here.
+## 🌌 Table of Contents
 
-/deploy: Discover deployment and usage scripts tailored to assist your development process.
+- [Repository Overview](#repository-overview)
+- [Getting Started](#getting-started)
+- [Handy Commands](#handy-commands)
+- [Environment Setup](#environment-setup)
+- [Support & Assistance](#support--assistance)
 
-/test: Unit tests for the provided contracts.
+## 📂 Repository Overview
 
-Handy Commands 🛠️
-Here's a lineup of commands to assist you:
+- **`/contracts`**: Contains the essential smart contracts you'll need.
+- **`/deploy`**: Provides deployment and usage scripts tailored to streamline your development process.
+- **`/test`**: Houses unit tests to ensure the robustness of the provided contracts.
 
-yarn install: Installs the required dependencies.
-yarn compile: Compiles the contracts.
-yarn hardhat deploy-zksync --script deploy-paymaster.ts: Deploys your contracts smoothly.
-yarn hardhat deploy-zksync --script use-paymaster.ts: Executes the use-paymaster.ts script.
-yarn test: Runs tests. Make sure to check the test requirements below.
-Environment variables 🌳
-To prevent the leakage of private keys, we use the dotenv package to load environment variables. This is particularly used to load the wallet private key, which is required to run the deployment script.
+## 🚀 Getting Started
 
-To use it, rename .env.example to .env and input your private key.
+1. Clone the repository.
+2. Navigate to the repository directory.
+3. Install the required dependencies using the provided commands.
 
-WALLET_PRIVATE_KEY=123cde574ccff....
-Local testing 🧪
-To run tests, you'll need to start the zkSync local environment. Please refer to this section of the docs for details. It can be run with either the Dockerized setup or the In-memory node.
+## 🛠️ Handy Commands
 
-Without starting the zkSync local environment, the tests will fail with an error: Error: could not detect network (event="noNetwork", code=NETWORK_ERROR, version=providers/5.7.2)
+```bash
+yarn install                          # Install the required dependencies
+yarn compile                          # Compile the contracts
+yarn hardhat deploy-zksync --script deploy-paymaster.ts  # Deploy your contracts
+yarn hardhat deploy-zksync --script use-paymaster.ts     # Execute the use-paymaster script
+yarn test                             # Run tests (see test requirements below)
+```
+
+## 🌳 Environment Setup
+
+Security is paramount! We utilize the `dotenv` package to load environment variables, ensuring sensitive data, especially private keys, are safeguarded. This setup is essential for running the deployment script without compromising security.
+
+## 🌟 Support & Assistance
+
+Experiencing challenges or uncertainties?
+
+- 📖 Check the [custom paymaster tutorial](#link-to-tutorial) for an in-depth walkthrough of the code in this repository.
+- 🗣️ Join our [Discord community](#discord-link) for real-time help. Our enthusiastic members are always eager to assist!
+
+---
+
+Embark on this exciting journey with zkSync and discover the vast potential of custom paymasters. Enjoy coding! 🌌🚀
+
+---
+
+Note: Replace `#link-to-tutorial` and `#discord-link` with the actual links to the tutorial and Discord community respectively.
